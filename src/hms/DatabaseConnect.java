@@ -23,7 +23,7 @@ public class DatabaseConnect {
 
         try {
             Connection connection = (Connection) DriverManager.getConnection(url, username, password);
-            System.out.println("Database connected!");
+            System.out.println("Database ");
         } catch (SQLException e) {
             throw new IllegalStateException("Cannot connect the database!", e);
         }
